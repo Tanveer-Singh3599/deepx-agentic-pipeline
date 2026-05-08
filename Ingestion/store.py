@@ -1,7 +1,7 @@
 from typing import List, Dict, Any
 from pymongo import MongoClient
 
-MONGO_URI = "mongodb://Tanveer:%40Tanveer12345@ac-rqleiyn-shard-00-00.do3in0d.mongodb.net:27017,ac-rqleiyn-shard-00-01.do3in0d.mongodb.net:27017,ac-rqleiyn-shard-00-02.do3in0d.mongodb.net:27017/?ssl=true&replicaSet=atlas-hszf5p-shard-0&authSource=admin&retryWrites=true&w=majority&appName=Cluster0"
+MONGO_URI = "uri"
 DATABASE_NAME = "deep-detector"
 COLLECTION_NAME = "ingestion_db"
 STAGED_COLLECTION_NAME = "staged_db"
